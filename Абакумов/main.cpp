@@ -9,8 +9,8 @@ float difference, multiplication, quotient;
 float input_float_number(){
 	float num;
 	while (true){
-		if ((cin >> num)) { // если ввели число
-			return num; // функция возвращает число
+		if (cin >> num) { // если ввели число
+			return num; // функция возвращает это число
 		}
 		else{
 			cout << "Incorrect input, try again\n"; //Вывод надписи на экран
