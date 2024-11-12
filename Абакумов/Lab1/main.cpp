@@ -18,9 +18,9 @@ float input_float_number(){
 
 
 int main() {
-  //инициализация переменных
-  float number1, number2;
-  float difference, multiplication, quotient;
+  	//инициализация переменных
+  	float number1, number2;
+  	float difference, multiplication, quotient;
 
 	cout << "Enter the first number: " << endl; //Вывод надписи на экран
 	number1 = input_float_number(); //получение числа из функции
