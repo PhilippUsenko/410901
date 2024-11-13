@@ -1,5 +1,4 @@
 #include <iostream>
-//Ñðåäíåå àðèôìåòè÷åñêîå äâóìåðíîãî ìàññèâà
 int main()
 {
 	int rows, cols;
@@ -22,7 +21,7 @@ int main()
 			std::cin >> arr[i][j];
 		}
 	}
-	//////////////////////////////////////////////////////////////////
+	
 	double sum = 0;
 	for (int i = 0; i < rows; i++)
 	{
@@ -34,7 +33,6 @@ int main()
 
 	std::cout << "The answer is" << '\n' << sum / (rows * cols);
 
-	//////////////////////////////////////////////////////////////////
 	for (int i = 0; i < rows; i++)
 	{
 		delete[] arr[i];
