@@ -6,7 +6,7 @@ int main()
 	setlocale(LC_ALL, "");
 	float a, b=1, i, c = 1;
 	int n;
-	cout << "Ââåäèòå n " << endl;
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ n " << endl;
 	cin >> n;
 	for (i = 1; i <= n; i = i + 1)
 	{
@@ -22,6 +22,6 @@ int main()
 		c = c * a * b;
 		}	
 	}
-	cout << "Îòâåò âûðàæåíèÿ " << c << endl;
+	cout << "ÃŽÃ²Ã¢Ã¥Ã² Ã¢Ã»Ã°Ã Ã¦Ã¥Ã­Ã¨Ã¿ " << c << endl;
 	return 0;
 }
