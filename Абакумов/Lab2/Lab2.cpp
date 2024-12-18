@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 
 int operations_with_numbers(int num) { //функция производит операцию над числом

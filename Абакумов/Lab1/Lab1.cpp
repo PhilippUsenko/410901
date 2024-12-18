@@ -1,32 +1,17 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 
 
-float input_float_number(){
-	float num;
-	while (true){
-		if (cin >> num) { // если ввели число
-			return num; // функция возвращает это число
-		}
-		else{
-			cout << "Incorrect input, try again\n"; //Вывод надписи на экран
-			cin.clear(); //очистка консоли
-			cin.ignore(1000,'\n'); //пропускает прошлый ввод
-		}
-	}
-}
-
-
 int main() {
-  	//инициализация переменных
-  	float number1, number2;
-  	float difference, multiplication, quotient;
+	//инициализация переменных
+	float number1, number2;
+	float difference, multiplication, quotient;
 
 	cout << "Enter the first number: " << endl; //Вывод надписи на экран
-	number1 = input_float_number(); //получение числа из функции
+	cin >> number1;
 
 	cout << "Enter the second number: " << endl;
-	number2 = input_float_number();
+	cin >> number2;
 
 	difference = number1 - number2; //подсчет переменных
 	multiplication = number1 * number2;

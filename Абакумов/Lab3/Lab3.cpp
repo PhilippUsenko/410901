@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <cmath>
 
 using namespace std;
@@ -40,7 +40,6 @@ int main() {
 	} while (abs(current - previous) > a);
 
 	cout << "\n\n\n" << "Sum of series: " << sum;
-	cout << "\nNumber of rows:" << n-1;
 	
 
 	system("pause>nul");
